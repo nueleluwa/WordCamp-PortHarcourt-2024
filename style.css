@@ -1,0 +1,20 @@
+.homepage-hero {
+    background-size: min(700px, 50vw) auto !important;
+    min-height: min(700px, 50vw) !important;
+}
+@media (max-width: 781px) {
+    .homepage-hero {
+        min-height: calc(1050px - 30vw) !important;
+        background-size: 500px auto !important;
+        background-position-x: max(calc(50% + 72px), 100%) !important;
+        padding-top: 40px;
+    }
+}
+@media (max-width: 600px) {
+    .homepage-hero {
+        min-height: calc(1000px - 30vw) !important;
+        background-size: 500px auto !important;
+        background-position-x: max(calc(50% + 72px), 100%) !important;
+        padding-top: 40px;
+    }
+}
